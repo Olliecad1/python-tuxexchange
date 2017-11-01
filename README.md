@@ -9,7 +9,38 @@ Inspired by [this](https://github.com/Olliecad1/Tux_Exchange_Python) wrapper wri
 
 > I ([sneurlax](https://github.com/sneurlax)) am not affiliated with, nor paid by [Tux Exchange](https://tuxexchange.com).  Use at your own risk
 
-**Private methods not currently supported**
+## Step 1
+
+### Git clone the github page
+
+```
+git clone https://github.com/Olliecad1/python-tuxexchange
+```
+
+## Step 2
+
+### Change Directory into python-tuxexchange
+
+```
+cd python-tuxexchange
+```
+
+## Step 3
+
+### Building and Installing the setup file
+
+```
+sudo python setup.py build
+sudo python setup.py install
+```
+
+## Step 4 
+
+### If you are on a Linux Machine or Raspberry pi
+
+```
+sudo mv tuxexchange.py /usr/lib/python2.7/dist-packages/
+```
 
 ## Usage
 
