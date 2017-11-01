@@ -67,6 +67,17 @@ print tuxexchange.api_query('getticker')
 {'BTC_ICN': {'last': '0.00040418', ...
 ```
 
+## Get Balance api, NEEDS PRIVATE AND PUBLIC KEY ACCESS
+
+```python
+from tuxexchange import Tuxexchange
+
+tuxexchange = Tuxexchange()
+
+print tuxexchange.getBalances()
+```
+
+
 ## Testing
 
 Run unit tests in [test.py](https://github.com/olliecad1/python-tuxexchange/blob/master/test.py)
