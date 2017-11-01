@@ -1,4 +1,4 @@
-# python-tuxechange
+# python-tuxexchange
 
 # Developed By Sneurlax
 # https://github.com/sneurlax
