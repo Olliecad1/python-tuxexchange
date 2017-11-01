@@ -14,7 +14,7 @@ Inspired by [this](https://github.com/Olliecad1/Tux_Exchange_Python) wrapper wri
 ### Git clone the github page
 
 ```
-git clone https://github.com/Olliecad1/python-tuxexchange
+sudo git clone https://github.com/Olliecad1/python-tuxexchange
 ```
 
 ## Step 2
