@@ -11,9 +11,9 @@ except ImportError:
 
 import requests
 
-PublKey = raw_input('Public Key for Tux Exchange')
+PublKey = ('')
 
-PrivKey = raw_input('Private Key For Tux Exchange')
+PrivKey = ('')
 
 BASE_URL = 'https://tuxexchange.com/api?method={method}'
 
@@ -90,6 +90,8 @@ class Tuxexchange(object):
 
       Tuxexchangeheader  = {'Sign':signature, 'Key': PublKey}
 
-      tuxgetbalance = requests.post(BASE_URL, data=query, headers=Tuxexchange,timeout=15).json()
-
+      tuxgetbalance = requests.post(BASE_URL, data=query, headers=Tuxexchangeheader,timeout=15).json()
       
+      return tuxgetbalance
+      
+   
