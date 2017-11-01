@@ -1,3 +1,8 @@
+## Developed By Sneurlax
+## https://github.com/sneurlax
+
+
+
 from setuptools import setup, find_packages
 from codecs import open
 from os import path
@@ -5,7 +10,7 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+with open(ath.join(here, 'README.md'), encoding='utf-8') as f:
   long_description = f.read()
 
 setup(
@@ -13,9 +18,9 @@ setup(
   version='0.0.1',
   description='Tux Exchange API wrapper for Python 2.7',
   long_description=long_description,
-  url='https://github.com/init-industries/python-tuxexchange',
-  author='sneurlax',
-  author_email='sneurlax@gmail.com',
+  url='https://github.com/olliecad1/python-tuxexchange',
+  author='Oliver Morris',
+  author_email='officialgamermorriss@gmail.com',
   license='MIT',
   classifiers=[
     'Development Status :: 3 - Alpha',
