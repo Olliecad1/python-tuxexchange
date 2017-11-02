@@ -9,7 +9,7 @@
 
 
 
-## [PyPi Link] (https://pypi.python.org/pypi/python-tuxexchange-Wrapper)
+## [PyPi Link](https://pypi.python.org/pypi/python-tuxexchange-Wrapper)
 
 
 ## Usage
