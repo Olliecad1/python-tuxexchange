@@ -5,7 +5,7 @@
 
 ![python](https://img.shields.io/badge/python-2.7-blue.svg)
 
-[Guides](https://github.com/Olliecad1/python-tuxexchange-Wrapper/Guides)
+# [Guides](https://github.com/Olliecad1/python-tuxexchange-Wrapper/Guides)
 
 
 
