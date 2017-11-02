@@ -60,7 +60,7 @@ print tuxexchange.api_query('getticker')
 {'BTC_ICN': {'last': '0.00040418', ...
 ```
 
-## Get Balance api, NEEDS PRIVATE AND PUBLIC KEY ACCESS
+## Get Balance api, Get Withdraw History and Addresses api, NEEDS PRIVATE AND PUBLIC KEY ACCESS
 
 ```python
 from tuxexchange import Tuxexchange
