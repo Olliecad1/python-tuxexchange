@@ -2,7 +2,7 @@
 
 # Developed By Sneurlax
 # https://github.com/sneurlax
-# https://pypi.python.org/pypi/python-tuxexchange/0.0.1
+# [Original PyPi](https://pypi.python.org/pypi/python-tuxexchange/0.0.1)
 
 ![python](https://img.shields.io/badge/python-2.7-blue.svg)
 
