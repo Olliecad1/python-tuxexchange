@@ -5,15 +5,15 @@
 ### Git clone the github page
 
 ```
-sudo git clone https://github.com/Olliecad1/python-tuxexchange
+sudo git clone https://github.com/Olliecad1/python-tuxexchange-Wrapper
 ```
 
 ## Step 2
 
-### Change Directory into python-tuxexchange
+### Change Directory into python-tuxexchange-Wrapper
 
 ```
-cd python-tuxexchange
+cd python-tuxexchange-Wrapper
 ```
 
 ### Step 3
