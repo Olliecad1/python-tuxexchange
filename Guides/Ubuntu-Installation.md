@@ -23,7 +23,7 @@ cd python-tuxexchange-Wrapper
 sudo nano tuxexchange.py
 ```
 
-### go down until you see PublKey = ('') PrivKey = ('') just to add your public and private keys in the between the ''
+### go down until you see PublKey = ('') PrivKey = ('') just to add your public and private keys in between the ''
 
 ## Step 4
 
