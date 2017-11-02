@@ -4,6 +4,9 @@
 
 ### Git clone the github page
 
+
+![python](https://img.shields.io/badge/python-2.7-blue.svg)
+
 ```
 sudo git clone https://github.com/Olliecad1/python-tuxexchange-Wrapper
 ```
