@@ -5,10 +5,6 @@
 
 ![python](https://img.shields.io/badge/python-2.7-blue.svg)
 
-Inspired by [this](https://github.com/Olliecad1/Tux_Exchange_Python) wrapper written by [Olliecad1](https://github.com/Olliecad1) and following the example of [this](https://github.com/ericsomdahl/python-bittrex) wrapper written by [Eric Somdahl](https://github.com/ericsomdahl)
-
-> I ([sneurlax](https://github.com/sneurlax)) am not affiliated with, nor paid by [Tux Exchange](https://tuxexchange.com).  Use at your own risk
-
 ## Step 1
 
 ### Git clone the github page
