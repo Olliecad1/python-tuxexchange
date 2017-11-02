@@ -37,6 +37,8 @@ from tuxexchange import Tuxexchange
 tuxexchange = Tuxexchange()
 
 print tuxexchange.getBalances()
+print tuxexchange.getMyWithdrawHistory()
+print tuxexchange.getMyAddresses()
 ```
 
 
