@@ -1,6 +1,4 @@
 # Ubuntu Installation Guide
-====================
-
 
 ## Step 1
 
