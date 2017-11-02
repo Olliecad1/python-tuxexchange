@@ -42,3 +42,36 @@ sudo python setup.py install
 ```
 sudo mv tuxexchange.py /usr/lib/python2.7/dist-packages/
 ```
+
+
+## Usage
+
+See available methods in the [Tux exchange API docs](https://tuxexchange.com/docs)
+
+[test_manual.py](https://github.com/olliecad1/python-tuxexchange/blob/master/test_manual.py):
+```python
+from tuxexchange import Tuxexchange
+
+tuxexchange = Tuxexchange()
+
+print tuxexchange.api_query('getcoins')
+{'PPC': {'website': 'www.peercoin.org', ...
+print tuxexchange.api_query('getticker')
+{'BTC_ICN': {'last': '0.00040418', ...
+```
+
+## Get Balance api, NEEDS PRIVATE AND PUBLIC KEY ACCESS
+
+```python
+from tuxexchange import Tuxexchange
+
+tuxexchange = Tuxexchange()
+
+print tuxexchange.getBalances()
+```
+
+
+## Testing
+
+Run unit tests in [test.py](https://github.com/olliecad1/python-tuxexchange/blob/master/test.py)
+
