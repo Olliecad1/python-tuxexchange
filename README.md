@@ -12,6 +12,25 @@
 
 ## [PyPi Link](https://pypi.python.org/pypi/python-tuxexchange-Wrapper)
 
+```
+$ sudo apt-get install python-requests
+```
+
+## Use  
+```$ sudo pip install requests ``` 
+## If you have pip installed
+
+
+##  On OSX you can also use 
+```sudo easy_install -U requests ```
+## if you have easy_install installed.
+
+## Windows
+This might help: http://stackoverflow.com/questions/17309288/importerror-no-module-named-requests
+## Dependencies
+- https://pypi.python.org/pypi/requests
+
+
 
 ## Usage
 
