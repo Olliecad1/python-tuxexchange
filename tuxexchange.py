@@ -105,18 +105,30 @@ class Tuxexchange(object):
         tuxGetWithdrawHistory = requests.post(BASE_URL, data=query, headers=TuxexchangeHeader, timeout=15).json()
 
         return tuxGetWithdrawHistory
-    
-     def getMyDepositHistory(self):
-            query = {"method": "getmydeposithistory"}
-    
-            encoded = urlencode(query)
 
-            signature = hmac.new(PrivKey, encoded, hashlib.sha512).hexdigest()
+    def getMyAddresses(self):
+        query = {"method": "getmyaddresses"}
 
-            Tuxexchangeheader = {'Sign': signature, 'Key': PublKey}
+        encoded = urlencode(query)
 
-            tuxgetDepositHistory = requests.post(BASE_URL, data=query, headers=Tuxexchangeheader, timeout=15).json()
+        signature = hmac.new(PrivKey, encoded, hashlib.sha512).hexdigest()
 
-            return tuxgetDepositHistory
-    
-     
+        Tuxexchangeheader = {'Sign': signature, 'Key': PublKey}
+
+        tuxgetAddresses = requests.post(BASE_URL, data=query, headers=Tuxexchangeheader, timeout=15).json()
+
+        return tuxgetAddresses
+
+
+    def getDepositHistory(self):
+        query = {"method": "getmydeposithistory"}
+
+        encoded = urlencode(query)
+
+        signature = hmac.new(PrivKey, encoded, hashlib.sha512).hexdigest()
+
+        Tuxexchangeheader = {'Sign': signature, 'Key': PublKey}
+
+        tuxgetDepositHistory = requests.post(BASE_URL, data=query, headers=Tuxexchangeheader, timeout=15).json()
+
+        return tuxgetDepositHistory
