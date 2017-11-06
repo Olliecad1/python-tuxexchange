@@ -14,13 +14,13 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
   long_description = f.read()
 
 setup(
-  name='python-tuxexchange',
-  version='0.0.1',
+  name='python-tuxexchange-Wrapper',
+  version='1.0.0',
   description='Tux Exchange API wrapper for Python 2.7',
   long_description=long_description,
-  url='https://github.com/olliecad1/python-tuxexchange',
+  url='https://github.com/olliecad1/python-tuxexchange-Wrapper',
   author='Oliver Morris',
-  author_email='officialgamermorriss@gmail.com',
+  author_email='officialgamermorris@gmail.com',
   license='MIT',
   classifiers=[
     'Development Status :: 3 - Alpha',
@@ -30,7 +30,7 @@ setup(
     'Programming Language :: Python :: 2',
     'Programming Language :: Python :: 2.7',
   ],
-  keywords='cryptocurrency exchange bitcoin trading',
+  keywords='cryptocurrency exchange bitcoin trading Tuxexchange',
   packages=find_packages(exclude=['contrib', 'docs', 'tests', 'test', 'dist']),
   # install_requires=['peppercorn'],
   # extras_require={
